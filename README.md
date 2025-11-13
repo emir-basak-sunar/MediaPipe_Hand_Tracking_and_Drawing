@@ -12,14 +12,22 @@ Bu proje, MediaPipe kütüphanesini kullanarak el hareketlerini takip eden ve ha
 
 ## Kurulum
 
-1. Gerekli paketleri yükleyin:
+1. Python sanal ortam (3.10.11):
+```bash
+py -3.10.11 -m venv myVenv
+
+python -m pip install --upgrade pip
+
+```
+
+2. Gerekli paketleri yükleyin:
 ```bash
 pip install -r requirements.txt
 ```
 
-2. Uygulamayı çalıştırın:
+3. Uygulamayı çalıştırın:
 ```bash
-python deneme.py
+python deneme.py(gelişim version)
 ```
 veya
 ```bash
@@ -58,7 +66,6 @@ python deneme2.py
 
 ## Gereksinimler
 
-- Python 3.7 veya üzeri
 - Webcam
 - Windows/Linux/macOS
 
@@ -69,13 +76,10 @@ Mediapipe_isi2/
 ├── Mediapipe_isi/
 │   ├── deneme.py          # Gelişmiş çizim sistemi
 │   ├── deneme2.py         # Basit çizim uygulaması
-│   └── HAND/              # MediaPipe model dosyaları
 ├── requirements.txt       # Gerekli paketler
 └── README.md             # Bu dosya
 ```
 
 ## Notlar
-
-- Uygulamayı çalıştırmadan önce kameranızın çalıştığından emin olun
 - İyi aydınlatma koşullarında daha iyi sonuç alırsınız
 - El hareketlerinizi kameraya net bir şekilde gösterin
